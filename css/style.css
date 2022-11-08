@@ -1,7 +1,7 @@
 /* Keeps full background image*/
 
 html {
-    background: url(images/dillon-shook-mY3_bvR74fI-unsplash.jpg) no-repeat center center fixed !important;
+    background: url("/images/dillon-shook-mY3_bvR74fI-unsplash.jpg") no-repeat center center fixed !important;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -12,8 +12,6 @@ body {
     font-family: 'Montserrat', sans-serif !important;
 
 }
-
-/*Pushes portfolio cards to the far right*/
 
 aside {
     display: grid;
