@@ -1,10 +1,7 @@
-body, html {
-    height: 100%;
-}
-
-body {
-    background-image: url(/images/dillon-shook-mY3_bvR74fI-unsplash.jpg);
+html {
+    background: url(/images/dillon-shook-mY3_bvR74fI-unsplash.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-repeat: no-repeat;
-    font-family: 'Montserrat', sans-serif;
 }
