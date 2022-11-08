@@ -6,9 +6,5 @@ body {
     background-image: url(/images/dillon-shook-mY3_bvR74fI-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-.navbar-nav {
-    display: flex;
-    align-items: baseline;
+    font-family: 'Montserrat', sans-serif;
 }
