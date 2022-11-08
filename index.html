@@ -18,7 +18,7 @@
                   <a class="nav-link" href="#about-me">About Me</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="portfolio">Portfolio</a>
+                  <a class="nav-link" href="#portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#contact">Contact Me</a>
@@ -30,30 +30,37 @@
 
   <main>
       <section id="about-me">
-        <h3>Hi! I'm Jose Costa, a front-end web developer based in Manchester, United Kingdom. I have a passion for sports, 
+        <h4>Hi! I'm Jose Costa, a front-end web developer based in Manchester, United Kingdom. I have a passion for sports, 
             music and travelling. Feel free to contact me!
-        </h3>
+        </h4>
     </section>
 
   </main>
 
-  <aside>
-        <div class="card" style="width: 18rem;">
+  <aside id="portfolio">
+    <div class="row row-cols-1 row-cols-md-2">
+      <div class="col mb-4">
+        <div class="card">
           <img src="/images/prework.png" class="card-img-top" alt="prework">
           <div class="card-body">
-            <p class="card-text"></p>
+            <h5 class="card-title" href="https://github.com/jcarlos8/prework-study-guide" target="_blank">Prework Guide</h5>
+            <p class="card-text">This is a study guide created using HTML and CSS</p>
           </div>
         </div>
-
-        <div class="card" style="width: 18rem;">
-          <img src="/images/horiseon.png" class="card-img-top" alt="horiseon">
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="/images/horiseon.png" class="card-img-top" alt="horiseon>
           <div class="card-body">
-            <p class="card-text"></p>
+            <h5 class="card-title" href="https://jcarlos8.github.io/Challenge-week_1/" target="_blank">Horiseon</h5>
+            <p class="card-text">Code refactoring</p>
           </div>
         </div>
+      </div>
+    </div>
   </aside>
 
-  <footer>
+  <footer id="contact">
       <nav class="navbar fixed-bottom navbar-light bg-light">
         <a class="navbar-brand" href="https://www.linkedin.com/in/jos%C3%A9-costa/?locale=en_US" target="_blank">Linkedin</a>
         <a class="navbar-brand" href="https://www.instagram.com/zeka.costa/" target="_blank">Instagram</a>
